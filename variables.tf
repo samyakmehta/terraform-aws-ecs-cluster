@@ -207,3 +207,6 @@ variable "internal_alb_zone_id" {
   description = "Route53 Zone ID for the Internal Route53 Record."
 }
 
+variable "crowdstrike_cid" {
+  description = "CID to be used to install Crowdstrike."
+}
