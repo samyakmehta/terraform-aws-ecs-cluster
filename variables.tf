@@ -210,3 +210,9 @@ variable "internal_alb_zone_id" {
 variable "crowdstrike_cid" {
   description = "CID to be used to install Crowdstrike."
 }
+
+variable "enable_crowdstrike" {
+  default     = "false"
+  type        = string
+  description = "Enabled Crowdstrike installation"
+}
